@@ -1,0 +1,31 @@
+---
+start: |
+  Hello!
+  I am a bot for managing the task list
+  To add a task, enter /addtask
+  To view the task list, enter /tasklist
+
+task:
+  add: ➕ Add a task
+  choseDateAndText: Select a date and enter the text of the scheduled task
+  added: ✔️ The task has been added to the list
+
+  list: 📋 Show the list of tasks
+  notFound: There is not a single task
+  chooseDate: Select a date
+  forDate: Tasks for ${date}
+  editText: Enter a new task text
+  saved: ✔️ Task saved
+
+  done: ✅
+  notDone: 🔲
+  delete: 🗑️
+
+done: Done
+cancel: Cancel
+
+arrowLeft: 🠔
+arrowRight: 🠖
+arrowUp: 🠕
+arrowDown: 🠗
+...
